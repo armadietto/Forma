@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'it.formastudio.app'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'it.formastudio.app'
+        minSdk 29
+        targetSdk 35
+        versionCode 37
+        versionName '3.7.0'
+    }
+}
